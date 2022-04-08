@@ -18,7 +18,7 @@ public class RecvMT {
 
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("52.25.20.38");
+        factory.setHost("18.237.150.254");
         factory.setUsername("radmin");
         factory.setPassword("radmin");
         final Connection connection = factory.newConnection();
